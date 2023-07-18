@@ -5,15 +5,15 @@ const app = express()
 const port  = 3000
 app.get("/" , (req, res)=>{
     
-    res.send("This is my Home page")
+    res.send("<h1>Hellow node js</h1>")
 })
 app.get("/about" , (req, res)=>{
     
-    res.send("This is my About page")
+    res.send("<h1>This is my About page</h1>")
 })
 app.get("/blog" , (req, res)=>{
     
-    res.send("This is my Blog page")
+    res.send("<h1>This is my Blog page</h1>")
 })
 
 app.listen(port,()=>{
